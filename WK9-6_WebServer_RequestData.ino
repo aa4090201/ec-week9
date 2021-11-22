@@ -48,8 +48,8 @@ String htmlContent = "\
    <html>\
     <head>\
       <style>\
-        body{ display: flex; flex-direction: column;}\
-         a { background: #CEF2F4; width: 200px; height: 50px; margin: 20px; font-size: 30pt; text-decoration: none;}\
+        body{ display: flex; flex-direction: column;align-items: center; background:url(images/bg.jpg);}\
+         a { display: flex; flex-direction: row;justify-content: center;background: #0d0177;color: #a09e9e; width: 300px; height: 70px; margin: 30px; font-size: 50pt; text-decoration: none;}\
       </style>\
     </head>\
     <body>\
@@ -67,8 +67,8 @@ String LEDOpenPage = "\
    <html>\
     <head>\
       <style>\
-        body{ display: flex; flex-direction: column;}\
-         a { background: #CEF2F4; width: 200px; height: 50px; margin: 20px; font-size: 30pt; text-decoration: none;}\
+        body{ display: flex; flex-direction: column;align-items: center; background:url(images/bg.jpg);}\
+         a { display: flex; flex-direction: row;justify-content: center;background: #0d0177;color: #a09e9e; width: 200px; height: 70px; margin: 20px; font-size: 50pt; text-decoration: none;}\
       </style>\
     </head>\
     <body>\
@@ -82,8 +82,8 @@ String LEDCLOSEPage = "\
    <html>\
     <head>\
       <style>\
-        body{ display: flex; flex-direction: column;}\
-        a { background: #CEF2F4; width: 200px; height: 50px; margin: 20px; font-size: 30pt; text-decoration: none;}\
+        body{ display: flex; flex-direction: column;align-items: center; background:url(images/bg.jpg);}\
+        a {display: flex; flex-direction: row;justify-content: center; background: #0d0177; color: #a09e9e;width: 200px; height: 70px; margin: 20px; font-size: 50pt; text-decoration: none;}\
       </style>\
     </head>\
     <body>\
